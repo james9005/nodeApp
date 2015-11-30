@@ -1,2 +1,2 @@
-require('./connect');
+//require('./connect');
 require('./insert');
