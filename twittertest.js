@@ -2,6 +2,7 @@
  * Created by james on 30/11/2015.
  */
 var http = require('http');
+var port = process.env.PORT || 1337;
 
 var Twitter = require('twitter');
 var client = new Twitter({
