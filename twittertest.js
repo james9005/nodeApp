@@ -1,6 +1,8 @@
 /**
  * Created by james on 30/11/2015.
  */
+var http = require('http');
+
 var Twitter = require('twitter');
 var client = new Twitter({
     consumer_key: 'RM7bAiVnRLk8KtDqfdTOXnONW',
